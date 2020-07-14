@@ -1,0 +1,306 @@
+/*=============== body ===============*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e4e4;
+}
+
+/*=============== header ===============*/
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5rem;
+  justify-content: center;
+  color: #5a5959;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/*=============== navbar ===============*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.buttons {
+  width: 15rem;
+  padding: 0.7rem 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #5a5959;
+  background-color: transparent;
+  border: 0.1rem solid #69580c;
+  outline: none;
+  cursor: pointer;
+  margin: 3rem;
+}
+
+.buttons:hover {
+  color: rgb(221, 221, 221);
+  background-color: #635350;
+}
+
+/*=============== images ===============*/
+
+a:link {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+a:hover {
+  font-size: 1.5rem;
+}
+
+a:visited {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img1wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.img1card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+
+.img1text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.img2wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #dadada;
+}
+
+.img2card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+
+.img2wrap {
+  margin-right: 5rem;
+}
+
+.img2smalltext {
+  padding-left: 4rem;
+  padding-top: 0;
+}
+
+.img2text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 4rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.img3wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.img3card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+
+.img3wrap {
+  margin-right: 5rem;
+}
+
+.img3smalltext {
+  padding-left: 4rem;
+  padding-top: 0;
+}
+
+.img3text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 4rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.img4wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #dadada;
+}
+
+.img4card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+
+.img4wrap {
+  margin-right: 5rem;
+}
+
+.img4smalltext {
+  padding-left: 4rem;
+  padding-top: 0;
+}
+
+.img4text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 4rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.img5wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.img5card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+
+.img5wrap {
+  margin-right: 5rem;
+}
+
+.img5smalltext {
+  padding-left: 4rem;
+  padding-top: 0;
+}
+
+.img5text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 4rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+.img6wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 10rem 2rem;
+  background-color: #dadada;
+}
+
+.img6card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+
+.img6wrap {
+  margin-right: 5rem;
+}
+
+.img6smalltext {
+  padding-left: 4rem;
+  padding-top: 0;
+}
+
+.img6text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 4rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+/*=============== animated gif ===============*/
+
+.gifwrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 2rem 10rem 2rem;
+  padding: 2rem;
+}
+
+.gifcard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+}
+
+.giftext {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 8rem 2rem 2rem;
+  align-items: left;
+  font-size: 1.3rem;
+}
+
+/*=============== mockups ===============*/
+
+.mockuptext {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.mockuptextsize {
+  font-size: 1.3rem;
+}
+
+.mockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
